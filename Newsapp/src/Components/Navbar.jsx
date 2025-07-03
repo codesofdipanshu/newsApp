@@ -1,6 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
 const Navbar = ({setCategory}) => {
+  console.log("testing");
+  
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
